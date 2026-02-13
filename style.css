@@ -1,10 +1,15 @@
 * {
     margin: 0;
     font-family: "Arial";
+    overflow: hidden
 }
 
 .cont {
     display: flex;
+}
+
+.main {
+    background-color: rgb(244, 244, 244);
 }
 
 img {
@@ -21,7 +26,7 @@ div>p {
 }
 
 div>p:first-child {
-    margin-top: 150px;
+    margin-top: 120px;
     margin-bottom: 30px;
 }
 
@@ -32,17 +37,22 @@ fieldset>p {
 }
 
 fieldset {
-    margin-top: 70px;
-    width: 64.97vw;
+    margin-top: 50px;
+    padding-top: 13px;
+    width: 70vw;
+    border: none;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 255, 255);
 }
 
 .box {
     display: flex;
     flex-wrap: wrap;
-    width: 500px;
+    width: 550px;
     gap: 30px;
     padding-top: 20px;
     padding-left: 50px;
+    padding-bottom: 20px;
 }
 
 .field-group {
@@ -50,4 +60,50 @@ fieldset {
     flex-direction: column;
     font-size: 12px;
     color: rgb(95, 93, 93);
+}
+
+.field-group>input {
+    border: 1px solid rgb(95, 93, 93);
+    border-radius: 4px;
+    width: 230px;
+    padding: 4px;
+}
+
+button {
+    margin-top: 35px;
+    margin-left: 62px;
+    width: 232px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    background-color: #5E6C4C;
+    border: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;    
+}
+
+#log {
+    margin-top: -110px;
+    font-size: 3px;
+}
+
+a {
+    font-size: 16px;
+    font-style: bold;
+}
+
+a:link {
+    color: green;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+#login {
+    font-size: 16px;
+    margin-top: 140px;
 }
