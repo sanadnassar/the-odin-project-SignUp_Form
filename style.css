@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    font-family: "Arial";
+}
+
+.cont {
+    display: flex;
+}
+
+img {
+    height: 100vh;
+    width: 31em;
+}
+
+div>p {
+    color: black;
+    font-weight: bold;
+    padding-left: 60px;
+    font-size: 23px;
+    width: 650px;
+}
+
+div>p:first-child {
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+fieldset>p {
+    font-size: 23px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+fieldset {
+    margin-top: 70px;
+    width: 64.97vw;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    gap: 30px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.field-group {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    color: rgb(95, 93, 93);
+}
